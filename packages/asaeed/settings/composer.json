@@ -1,0 +1,24 @@
+{
+    "name": "asaeed/settings",
+    "description": "settings",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "asaeed",
+            "email": "asklko2004@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Asaeed\\Settings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Asaeed\\Settings\\SettingsServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,124 @@
+@import './variables';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~vue-multiselect/dist/vue-multiselect.min.css';
+@import './waves';
+@import './tooltip';
+@import './sidebar';
+@import './dropdown';
+body {
+    background-color: hsl(0, 0%, 85%);
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+#page-content-wrapper {
+    background-color: #CCC8C9 !important;
+}
+
+.active {
+    color: $black!important;
+    font-weight: bolder;
+    border-color: $gray-300!important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: transparent!important;
+}
+
+// classes for font sizes
+.fs-1 {
+    font-size: 1rem!important;
+}
+
+.fs-1_5 {
+    font-size: 1.5rem!important;
+}
+
+.fs-2 {
+    font-size: 2rem!important;
+}
+
+.fs-3 {
+    font-size: 3rem!important;
+}
+
+.fs-4 {
+    font-size: 4rem!important;
+}
+
+.fs-5 {
+    font-size: 5rem!important;
+}
+
+.fs-10 {
+    font-size: 10rem!important;
+}
+
+.shadow-ask {
+    box-shadow: 0 0 25px 0 rgba(82, 63, 105, 0.15)!important;
+}
+
+.card-dashboard {
+    border: none!important;
+}
+
+table {
+    .material-icons, .fas {
+        font-size: 1.15rem;
+    }
+}
+
+.material-icons, .fas {
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.routerLink {
+    font-weight: bolder;
+    color: $primary;
+    cursor: pointer;
+}
+
+.label-status {
+    padding: 1px 5px;
+    margin: 5px 5px;
+}
+
+.mx-input{
+    height:26px!important;
+    border-radius : 0px!important;
+    box-shadow : none!important;
+}
+
+.bg-lightgrey {
+    background-color: #f1efee !important;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
+
+.page-title {
+ padding: .5rem;
+}
+
+#page-title{
+    padding-bottom: 1rem;
+}
+
+#page-title .material-icons, #page-title .fas {
+    font-size: 1.15rem
+}
+
+.label {
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    text-decoration: none;
+}
